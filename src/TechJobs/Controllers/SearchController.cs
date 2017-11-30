@@ -17,6 +17,7 @@ namespace TechJobs.Controllers
         {
             ViewBag.title = "Search";
             ViewBag.searchTerm = searchTerm;
+            ViewBag.columns = ListController.columnChoices;
 
             if (searchType == "all")
             {
